@@ -34,4 +34,21 @@ I used the stratified split example from the files to perform a split on my data
 - R^2^ value for the testing set was: 0.293703737710699
 - Mean Squared Error was: 0.5544469784101934
 - Root Mean Square Error:  0.7446119649926353
-  
+
+## Important results from Project 2 Milestone:
+
+### Notebook: Classification: 
+
+#### Decision Tree findings
+- Accuracy is  1.0 & F1 is  1.0
+-  Cross validation accuracies are:  [0.576530612244898, 0.5471938775510204, 0.5625, 0.5530012771392082, 0.5606641123882503]
+   Cross validation f1 scores  are:  [0.5793953210504539, 0.5479319719338513, 0.5618041410237935, 0.5570180226934941, 0.5606869706999108]
+- Basically every node only had one number indicating over fitting was occuring.
+
+#### SVM Multi-classifier findings
+- Accuracy is  0.5242470648289944 & F1 is  0.4441846223575155
+- Cross validation accuracies are:  [0.4885204081632653, 0.5025510204081632, 0.4897959183673469, 0.5210727969348659, 0.46871008939974457]
+Cross validation f1 scores  are:  [0.4183026794633937, 0.42580947890174303, 0.42172918484473465, 0.4434337947004362, 0.380692231974421]
+- This seems to me that we are no longer overfitting however we were getting missclassifications and the model was actually predicting,
+- However it was doing it inaccurately and poorly which lines up with the low predictive power found by the R^2 in linear regression notebook.
+-
