@@ -1,5 +1,16 @@
 # 44-566 machine-learning project
 Repo for all project documents
+## Links to Other sections:
+- RAW_DATA
+- DATA
+- ANALYSIS
+- CONCLUSIONS
+## Introduction and Goals:
+- My Project was using various models with the white wine dataset to discover various metrics(such as accuracy, f1-scores), vizualizations (such as the visualization of cluster's centroids), and find any relationships in the data. 
+- Primary Goal:
+  - See if with optimized input features in the dataset such as alcohol (alcohol percent by volume) or residual sugar (sugar left over from grapes after processing) or anything that contributes to predicting, if we can get a strong predictor of the output feature "quality".
+- Secondary Goal:
+  - Find the model which gives the best metrics back on the dataset such as with accuracy.
 
 
 ## Overview:
@@ -51,4 +62,33 @@ I used the stratified split example from the files to perform a split on my data
 - Cross validation f1 scores  are:  [0.4183026794633937, 0.42580947890174303, 0.42172918484473465, 0.4434337947004362, 0.380692231974421]
 - This seems to me that we are no longer overfitting however we were getting missclassifications and the model was actually predicting,
 - However it was doing it inaccurately and poorly which lines up with the low predictive power found by the R^2 in linear regression notebook.
+
+## Important results from Project 3 Milestone:
+
+### Notebook: Milestone 3:
+#### Kmeans Clustering:
+- The final distortion is: 9350.752692920545
+- Centroids_x: 13.00322581 , 2.20665635 , 5.65348331 , 8.90639445 , 17.28817427 , 1.5861413, 65.8
+- Centroids_y: 9.56736243 12.15500516 10.784388 10.15962506 9.34266943 10.2546558, 11.7
+#### Dimensional Analysis:
+- The number of dimensions that explain 95% of the variation:  2
+#### Anomolous Data:
+- ANOMALY FOR PCA: the x at: 1 has a corresponding y: at 0.93, means 1 feature explained 93% of the variance in the data.
+- CLUSTERING ANOMALIES:
+  - ANOMALY: the brown cluster of data points from the second graph in the previous part: has an x: 65.8
+    - 65.8 is a massive outlier of the dataset being at about 3.5 times larger then the closest x value
+### Advanced Regression/Classifier Tools:
+#### Random Forest 
+- Average cross validation accuracy for Random forest is: 0.64143654191
+- Average cross validation f1-score for Random forest is: 0.62697622509
+#### Neural Net
+- Average cross validation accuracy for Neural Net 0.52110585923742792
+- Average cross validation f1-score for Neural Net is: 0.469732875149119394
+
+
+
+## Narrative	conclusion
+- The model that was found that has the best metrics for the white wine dataset is the Random Forest and the reason as to why it is that the ensemble nature of the random forest might be taking our middle of the road performances, such as the decision tree giving us around 0.55 for accuracy and improving them.
+- As for whether we can predict the quality of wine in the dataset my answer would be no because of a low r-squared value our predictions would be inaccurate as seen in the models in this repository
+  - The reason why this might be the case is that perhaps we are missing an important input feature for the dataset such as like a recording for a select set of moods before someone did a sensory evaluation of the wine as listed in the study sensory evaluations are performed by people but there is no categorical or numerical data about the testers themselves, so if say a 1 was for a mood of someone who was "positive feeling" and a 0 for "negative feeling" we might be able to perform better predictions with this human aspect as an input feature.
 
