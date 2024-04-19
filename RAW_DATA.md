@@ -7,10 +7,10 @@
 
 ### Method to pull in the data to the programs in the project 
 - The only method I used to pull in the dataset after adding the winequality-white.csv was the pandas .read_csv method that we learned in class.
-- Other then this when downloading the file I just had to use built-in methods to windows O.S. to unzip the file and drag and drop the csv file into the same folder that contained my repo.
+- Other than this when downloading the file, I just had to use built-in methods to windows O.S. to unzip the file and drag and drop the csv file into the same folder that contained my repo.
 
 #### Reason for choosing this Dataset
-I had in my original project proposal looked around and found two data sets from the government, but wasn't really satisfied with the data or subject that was in them.
+I had in my original project proposal looked around and found two data sets from the government but wasn't really satisfied with the data or subject that was in them.
 - [First data set I looked at](https://www.census.gov/data/tables/2023/demo/income-poverty/p60-279.html)
 - [Second data set I looked at](https://www.census.gov/topics/families/marriage-and-divorce/data/tables.2022.List_1621025217.html#list-tab-List_1621025217)
 
