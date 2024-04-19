@@ -90,4 +90,4 @@ I used the stratified split example from the files to perform a split on my data
 
 ### Improvements that could be made
 
-- Instead of using a standard neural net here I could test how a convultional neural net works with the data and see if it being not potentially running into exploding gradients or vanishing gradients that the neural net here is using would improve the results. 
+- Instead of using a standard neural net here I could test how a convolutional neural net works with the data and see if the neural net potentially running into exploding gradients or vanishing gradients would improve the results. Essentially a model change for the neural net seems like a way forwards to a potential improvement.

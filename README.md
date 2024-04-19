@@ -4,7 +4,7 @@ Repo for all project documents
 - [RAW_DATA](RAW_DATA.md) 
 - [DATA](DATA.md)
 - [ANALYSIS](ANALYSIS.md)
-- CONCLUSIONS
+- [CONCLUSIONS](CONCLUSIONS.md)
 ## Introduction and Goals:
 - My Project was using various models with the white wine dataset to discover various metrics(such as accuracy, f1-scores), vizualizations (such as the visualization of cluster's centroids), and find any relationships in the data. 
 - Primary Goal:
