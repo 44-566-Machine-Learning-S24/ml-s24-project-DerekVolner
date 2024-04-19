@@ -1,7 +1,7 @@
 # 44-566 machine-learning project
 Repo for all project documents
 ## Links to Other sections:
-- RAW_DATA
+- [RAW_DATA](RAW_DATA.md) 
 - DATA
 - ANALYSIS
 - CONCLUSIONS
