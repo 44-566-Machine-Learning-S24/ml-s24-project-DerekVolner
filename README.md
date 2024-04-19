@@ -2,7 +2,7 @@
 Repo for all project documents
 ## Links to Other sections:
 - [RAW_DATA](RAW_DATA.md) 
-- DATA
+- [DATA](DATA.md)
 - ANALYSIS
 - CONCLUSIONS
 ## Introduction and Goals:
