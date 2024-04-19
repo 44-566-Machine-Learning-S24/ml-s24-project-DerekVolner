@@ -7,7 +7,7 @@
 - Found through k means clustering that a cluster of the data is centeroid abnormally far to the right on the x-axis about at 60 which is about 3.5 times greater x value than any other centroid.
 - Found that residual sugar explained about 93 percent of the variation in the data, despite not having the most effect whenever I was altering the input features being tested during the [Linear Regression](linear_regression.ipynb) part of the project.
   - it still mattered to the r^2 value but not to the degree I would expect from both this finding and the fact it was correlated with the quality in the initial exploration
-  - Unsure if this is an indication that I did something wrong or if their is some unexplained behavior in the data?
+  - I went back because it's been a long time since we worked on the linear regression and did some testing on the [Linear Regression](linear_regression.ipynb) and in order the ones that effected the r^2 the value the most when taking them out of the input features on the test set on the last code cell were: Volatile Acidity, Alcohol, and Residual Sugar, I would still expect Residual sugar to be have more effect on the change due to the previous 93 percent explantion of variance and the correlation with quality. 
 
 
 ### Transformations

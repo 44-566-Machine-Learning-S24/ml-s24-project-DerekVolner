@@ -3,7 +3,7 @@ Repo for all project documents
 ## Links to Other sections:
 - [RAW_DATA](RAW_DATA.md) 
 - [DATA](DATA.md)
-- ANALYSIS
+- [ANALYSIS](ANALYSIS.md)
 - CONCLUSIONS
 ## Introduction and Goals:
 - My Project was using various models with the white wine dataset to discover various metrics(such as accuracy, f1-scores), vizualizations (such as the visualization of cluster's centroids), and find any relationships in the data. 
@@ -84,8 +84,6 @@ I used the stratified split example from the files to perform a split on my data
 #### Neural Net
 - Average cross validation accuracy for Neural Net 0.52110585923742792
 - Average cross validation f1-score for Neural Net is: 0.469732875149119394
-
-
 
 ## Narrative	conclusion
 - The model that was found that has the best metrics for the white wine dataset is the Random Forest and the reason as to why it is that the ensemble nature of the random forest might be taking our middle of the road performances, such as the decision tree giving us around 0.55 for accuracy and improving them.
